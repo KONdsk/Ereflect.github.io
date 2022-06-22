@@ -3,6 +3,7 @@
   padding: 0;
 }
 a{
+  flex: 0.6 ,1 ,1;
   text-decoration: none;
 }
 li{
@@ -43,14 +44,12 @@ justify-content: start;
 
 .nav ul li a{
   color: #333;
-}
-.nav ul li a:hover{
-  color: rgb(113, 111, 109)  ;
+  padding-bottom: 1rem;
 }
 
-.active{
-  color: aquamarine;
-}
+.nav .active{
+  border-bottom: 0.15rem solid rgb(204, 227, 228);
+}  
 .image {
   width: 100%;
   height: auto;
