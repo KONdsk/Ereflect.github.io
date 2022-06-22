@@ -56,7 +56,7 @@ header {
 }
 
 .active {
-  color: aquamarine;
+  border-bottom: 0.15em solid white;
 }
 
 .book-summary ul.summary {
