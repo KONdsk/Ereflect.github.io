@@ -1,20 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>hello world</title>
-  <p>Hello 大家好</p>
-<p>我是霸都丶傲天，这是我的个人网站。 </p>
-<p>很高兴你来到这里, 你可以在以下的网站找到我</p>
+  <title>El的主页</title>
 
-<ul>
-  <li> <a href="https://www.zhihu.com/people/AJLoveChina">知乎</a> </li>
-  <li> <a href="http://hejie.nigeerhuo.com">我的博客(已经不更细了,现在在知乎写文章)</a> </li>
-</ul>
+
+
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+
+    }
+
+    body {
+      height: 100%;
+      width: 100%;
+    }
+
+    .shell {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100%;
+      background-color: white;
+    }
+
+    .shell {
+      width: 90%;
+      height: 700px;
+      display: flex;
+      justify-content: center;
+
+    }
+
+    .box {
+      flex: 1;
+      overflow: hidden;
+      transition: 0.5s;
+      margin: 0 20px;
+      box-shadow: 10px 10px 20px rgb(0, 0, 0, .5);
+      border-radius: 20px;
+      border: 10px solid #fff;
+      background-color: #fff;
+    }
+
+    .box>img {
+      width: 200%;
+      height: 85%;
+      object-fit: cover;
+      transition: .5s;
+    }
+
+    .box>span {
+      font: 200 45px 'black';
+      text-align: center;
+      height: 15%;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .box:hover {
+      flex-basis: 30%;
+    }
+
+    .box>img:hover {
+      height: 100%;
+      width: 100%;
+    }
+  </style>
 </head>
+
 <body>
-  
+
+  <header>
+    <div class="header-f">
+      <div class="logo">
+        <h3>Ereflect</h3>
+      </div>
+
+      <!-- navigate -->
+      <div class="nav">
+        <ul>
+          <li>
+            <a href="index.html" class="active">首页</a>
+          </li>
+          <li>
+            <a href="https://space.bilibili.com/399558292?spm_id_from=333.788.0.0">我的b站主页</a>
+          </li>
+          <li>
+            <a href="https://github.com/KONdsk/Ereflect.github.io">本项目地址</a>
+          </li>
+          <li>
+            <a href="">C笔记(暂未施工)</a>
+          </li>
+          <li>
+            <a href="https://www.runoob.com/java/java-tutorial.html">菜鸟教程</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- logo -->
+
+  </header>
+
+  <div class="shell">
+    <div class="box">
+      <img src="img/a1.jpg" alt="">
+      <span>金毛败犬</span>
+    </div>
+    <div class="box"><img src="img/a6.jpg" alt="">
+      <span>刻晴</span>
+    </div>
+    <div class="box">
+      <img src="img/a3.jpg" alt="">
+      <span>七七</span>
+    </div>
+    <div class="box">
+      <img src="img/a4.jpg" alt="">
+      <span>学园偶像</span>
+    </div>
+    <div class="box">
+      <img src="img/a7.jpg" alt="">
+      <span>可莉</span>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="./index.js"></script>
 </body>
+
 </html>

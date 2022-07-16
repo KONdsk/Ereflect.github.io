@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  flex: 0.6, 1, 1;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #66CCFF;
+  /* box-shadow: 2px 3px 5px #ccc; */
+}
+
+.header-f {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+.logo {
+  font-size: 24px;
+
+  line-height: 80px;
+
+}
+
+.logo h3 {
+  color: azure;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: start;
+}
+
+.nav ul li {
+  height: 80px;
+  line-height: 80px;
+  margin: 0 10px;
+}
+
+.nav ul li a {
+  color: #333;
+  padding-bottom: 1rem;
+}
+
+.nav .active {
+  border-bottom: 0.15rem solid rgb(204, 227, 228);
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  margin-top: 10%;
+  margin-left: auto;
+}
